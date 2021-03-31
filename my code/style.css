@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+}
+.inner_box{
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    width: 60%;
+    height: 40rem;
+    margin:170px auto 0 auto;
+    border-radius: 30px;
+}
+h1{
+    float: right;
+    margin-top: 50px;
+    margin-right: 20rem;
+    font-size: 50px;
+}
+
+.boxes-desktop{
+    position:absolute;
+    right: 40rem;
+    bottom: 0px;
+}
+
+
+.woman-desktop{
+    position: absolute;
+    top: 3rem;
+    left: -6rem;
+    width: 35rem;
+}
+
+.at-box-desktop{
+    position: absolute;
+    top: 24rem;
+    left: 16rem;
+    width: 13rem;
+    z-index: 2;
+}
+
+.menu{
+    margin-top: 7rem;
+    margin-left: 35rem;
+    font-size: 30px;
+}
+.menu div button{
+    background-color: white;
+    border: none;
+    font-size: 27px;
+}
+.menu div button:hover{
+    color: orange;
+}
+.menu div p {
+    display: none;
+    color :gray;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#arrow1{
+    width: 15px;
+    margin-left: 10px;
+}
+#arrow2{
+    width: 15px;
+    margin-left: 10px;
+}
+#arrow3{
+    width: 15px;
+    margin-left: 10px;
+}
+#arrow4{
+    width: 15px;
+    margin-left: 10px;
+}
+#arrow5{
+    width: 15px;
+    margin-left: 10px;
+}
+.attribution{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+}
